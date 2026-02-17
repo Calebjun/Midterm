@@ -1,0 +1,68 @@
+{
+  "students": [
+    {
+      "id": "S001",
+      "name": "Alice Johnson",
+      "age": 20,
+      "isEnrolled": true,
+      "gpa": 3.8,
+      "email": "alice@example.com"
+    },
+    {
+      "id": "S002",
+      "name": "Bob Smith",
+      "age": 22,
+      "isEnrolled": false,
+      "gpa": 3.2,
+      "email": "bob@example.com"
+    },
+    {
+      "id": "S003",
+      "name": "Charlie Davis",
+      "age": 19,
+      "isEnrolled": true,
+      "gpa": 3.9,
+      "email": "charlie@example.com"
+    },
+    {
+      "id": "S004",
+      "name": "Dana Lee",
+      "age": 21,
+      "isEnrolled": true,
+      "gpa": 3.5,
+      "email": "dana@example.com"
+    },
+    {
+      "id": "S005",
+      "name": "Evan Kim",
+      "age": 23,
+      "isEnrolled": false,
+      "gpa": 2.9,
+      "email": "evan@example.com"
+    },
+    {
+      "id": "S006",
+      "name": "Fiona Wong",
+      "age": 20,
+      "isEnrolled": true,
+      "gpa": 4.0,
+      "email": "fiona@example.com"
+    },
+    {
+      "id": "S007",
+      "name": "George Patel",
+      "age": 22,
+      "isEnrolled": true,
+      "gpa": 3.7,
+      "email": "george@example.com"
+    },
+    {
+      "id": "S008",
+      "name": "Hannah Ruiz",
+      "age": 21,
+      "isEnrolled": false,
+      "gpa": 3.1,
+      "email": "hannah@example.com"
+    }
+  ]
+}
