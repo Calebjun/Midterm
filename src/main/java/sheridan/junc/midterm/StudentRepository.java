@@ -8,14 +8,9 @@ import java.util.List;
 
 @RepositoryRestResource
 public interface StudentRepository extends JpaRepository<Student, String> {
-
     List<Student> findByEmail(@Param("email") String email);
-
     List<Student> findByNameContainingIgnoreCase(@Param("name") String name);
-
-    List<Student> findByGpaGreaterThan(@Param("gpa") double gpa);
-
-    List<Student> findByGpaLessThan(@Param("gpa") double gpa);
-
-    List<Student> findByGpaBetween(@Param("min") double min, @Param("max") double max);
+    List<Student> findByGpaGreaterThan(@Param("gpa") Double gpa);
+    List<Student> findByGpaLessThan(@Param("gpa") Double gpa);
+    List<Student> findByGpaBetween(@Param("min") Double min, @Param("max") Double max);
 }
